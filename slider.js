@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".banner__items");
   const dots = document.querySelectorAll(".banner__slider--dots");
   const bannerTitle = document.querySelector('.banner__content--title');
-  const bannerDesc = document.querySelector('.banner__content--desc p');
   const totalSlides = slides.length;
 
   const bannerData = [
